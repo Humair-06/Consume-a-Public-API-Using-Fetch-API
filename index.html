@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Country Info App</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top: 40px; }
+    #result { margin-top: 20px; }
+    .loading { color: blue; }
+    .error { color: red; }
+  </style>
+</head>
+<body>
+
+  <h2>🌎 Country Information Finder</h2>
+
+  <input type="text" id="countryInput" placeholder="Enter country name" />
+  <button onclick="getCountryData()">Search</button>
+
+  <p id="loading" class="loading"></p>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
